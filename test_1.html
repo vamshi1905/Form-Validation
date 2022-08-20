@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test#1</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <div class="form-control">
+                <label form ="">Select your source: </label>
+                <input type="text" placeholder="Google Cloud Storage" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Provide a name for pipeline:</label>
+                <input type="text" placeholder="e.g., cust_shop_energy_gkateway001" id="email" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">GCS project name:</label>
+                <input type="text" placeholder="project-Id" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">GCS bucket name:</label>
+                <input type="text" placeholder="gs://your-bucket" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Input Cloud Storage File(s):</label>
+                <input type="file" placeholder="GCS location of your files" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">GCS Credentials: </label>
+                <input type="password" placeholder="" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Run Every:</label> </label>
+                <input type="number" placeholder="(in minutes)" id="password2"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+            <div>
+                <input type="reset" class="reset" value="Cancel">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
